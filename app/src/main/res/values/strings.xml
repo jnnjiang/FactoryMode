@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FactoryImage</string>
+    <string name="show_qrcode">Show QRcode</string>
+    <string name="file_does_not_exist">Image file  does not exist.</string>
+    <string name="need_permission_tips">Please grant the required permissions, otherwise the app will not work properly.</string>
+</resources>
