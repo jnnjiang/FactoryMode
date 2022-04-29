@@ -41,7 +41,7 @@ adb shell input keyevent KEYCODE_BACK
 ```
 adb shell am force-stop com.ff.factoryimage
 ```
-##or
+## or
 ### for not root device
 adb shell ps => Will list all running processes on the device and their process ids
 adb shell kill <PID> => Instead of <PID> use process id of your application
