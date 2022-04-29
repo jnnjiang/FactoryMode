@@ -41,10 +41,12 @@ adb shell input keyevent KEYCODE_BACK
 ```
 adb shell am force-stop com.ff.factoryimage
 ```
-### or
-### for not root device
-adb shell ps => Will list all running processes on the device and their process ids
+
+<b> for not root device </b>
+```
+adb shell ps => Will list all running processes on the device and their process ids 
 adb shell kill <PID> => Instead of <PID> use process id of your application
+```
 
 ### Steps
 1.create a directory factoryImage 
